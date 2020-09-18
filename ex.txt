@@ -1,0 +1,87 @@
+student = [ {'name':'chetan','city':'pithampur','mobile':'00000000'},
+            {'name':'rahul','city':'indore','mobile': '11111111'},
+            {'name':'tulsi','city':'pithampur','mobile':'22222222'},
+            {'name':'bhawati','city':'mhow','mobile':'3333333333'},
+            {'name':'maya','city':'rao','mobile':'44444444444'}
+]
+
+
+name = input("enter a name to find mobile number")
+
+for stu in student:
+    for i in stu.values():
+        if name in i:
+            print(stu['mobile'])
+            break
+        
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
